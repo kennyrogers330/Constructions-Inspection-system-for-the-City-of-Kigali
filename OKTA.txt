@@ -7,6 +7,9 @@ test5252
 company@gmail.com
 test5252
 
+manager@email.com
+test@5252
+
 https://dev-37780134-admin.okta.com/admin/getting-started
 
 

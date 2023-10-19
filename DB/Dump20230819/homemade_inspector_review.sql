@@ -18,7 +18,7 @@
 --
 -- Table structure for table `inspector_review`
 --
-
+use homemade;
 DROP TABLE IF EXISTS `inspector_review`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
@@ -41,7 +41,7 @@ CREATE TABLE `inspector_review` (
 
 LOCK TABLES `inspector_review` WRITE;
 /*!40000 ALTER TABLE `inspector_review` DISABLE KEYS */;
-INSERT INTO `inspector_review` VALUES (1,'2023-07-02 18:35:20.757000',2.5,'we here now!','adminuser@gmail.com',1),(2,'2023-07-03 09:55:47.314000',4,'Keep it up sir! Your work is progressing as planned.','testUser@gmail.com',1),(3,'2023-07-03 12:05:53.447000',2,'The progress aligns with the plans and construction blue print','testUser@gmail.com',2);
+-- INSERT INTO `inspector_review` VALUES (1,'2023-07-02 18:35:20.757000',2.5,'we here now!','adminuser@gmail.com',1),(2,'2023-07-03 09:55:47.314000',4,'Keep it up sir! Your work is progressing as planned.','testUser@gmail.com',1),(3,'2023-07-03 12:05:53.447000',2,'The progress aligns with the plans and construction blue print','testUser@gmail.com',2);
 /*!40000 ALTER TABLE `inspector_review` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
